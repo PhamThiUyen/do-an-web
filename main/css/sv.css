@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+#form {
+  
+  max-width: 60%;
+  margin-left:300px;
+  margin-top: 70px;
+  background: #f1f9fe;
+  box-shadow: 0 0.313rem 3.875rem 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+#form #description {
+  text-align: center;
+  font-size: 2.063rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 1.25rem;
+   color: #8968CD;
+}
+
+#form .img{
+  text-align:center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8968CD;
+    padding-top: 40px;
+}
+#survey-form {
+ 
+  margin: 3.125rem 6.25rem 0 6.25rem;
+}
+#survey-form .form-sv {
+  margin: 0 0 1.75rem;
+  padding: 0.25rem;
+}
+#survey-form .form-sv p {
+  padding-left: 0.5rem;
+  margin: 0;
+}
+#survey-form label  {
+  color:#8968CD;
+  font-size: 2rem;
+  font-weight: 400;
+}
+#survey-form input,#survey-form select,textarea {
+  width: 95%;
+  height: 4rem;
+  padding-left: 0.5rem;
+  border-radius: 0.188rem;
+  background-color: #ddeef9;
+  border: 0.125rem solid #ddeef9;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+input:focus, #survey-form input:focus, textarea:focus {
+  outline: 0;
+  background-color: transparent;
+  border-color: #5756a2;
+  border: 0 0 0 0.2rem rgba(87,86,162,.25);
+}
+::placeholder { 
+  color: #5756a2;
+}
+
+input[type='radio'], #survey-form input[type='radio'] {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+#survey-form .row .col-md-4 label {
+  margin-right: 1.875rem;
+}
+#survey-form .row .col-md-4 span {
+  position: relative;
+  top: -1.9px;
+}
+.form-sv #textarea-label p {
+  margin-top: 1rem;
+}
+
+.action button {
+  height: 4.094rem;
+  width: 12.25rem;
+  color: #fff;
+  fill: #fff;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;  
+  text-align: center;
+  background-color: #5756a2;
+  cursor: pointer;
+  margin-left: 25px;
+  border: 0.125rem solid #5756a2;
+
+}

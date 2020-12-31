@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/main/css/sv.css">
+</head>
+<body>
+    <div id="form">
+        <h1 id="title" >React Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        
+        <div class="img">
+          <img src="https://cdn-images-1.medium.com/max/1600/1*6kK9j74vyOmXYm1gN6ARhQ.png" width="130" height="130">
+        </div>
+
+        <form id="survey-form">
+            <div class="form-sv">
+                <label id="name-label" >Name</label> <br>
+                <input type="text" id="name" placeholder="First name and Last name" required/>
+            </div>
+
+            <div class="form-sv">
+                <label id="name-label">Email</label><br>
+                <input type="text" id="email" placeholder="Email Address" required/>
+            </div>
+
+            <div class="form-sv">
+                <label id="number-label">
+                    <p>Age 
+                      <span class="italic">(optional)</span>
+                    </p>
+                  </label>
+                <input type="text" id="age" max="120" min="18" placeholder="Age" required/>
+            </div>
+
+            <div class="form-sv">
+                <label id="dropdown-label">
+                  <p>Which option best describes your current role?</p>
+                </label>
+                <select id="dropdown" name="role" required >
+                  <option disabled select value >Select current role</option>
+                  <option value="Student">Student</option>
+                  <option value="Full-Time-Job">Full Time Job</option>
+                  <option value="Full-Time-Learner">Full Time Learner</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-sv">
+                <label id="recommend">
+                  <p>Would you recommend React to a friend?</p>
+                </label>
+                <div class="row">
+                  <div class="col-md-4">
+                    <label>
+                      <input type="radio" name="user-recommend" value="Definitely" checked>
+                      <span>Definitely</span>
+                    </label>
+                  </div>
+                  <div class="col-md-4">
+                    <label>
+                      <input type="radio" name="user-recommend" value="Maybe">
+                      <span>Maybe</span>
+                    </label>
+                  </div>
+                  <div class="col-md-4">
+                    <label>
+                      <input type="radio" name="user-recommend" value="Not-sure">
+                      <span>Not sure</span>
+                    </label>
+                  </div>
+                </div>
+                
+                <div class="form-sv">
+                  <label id="fav-label">
+                    <p>What is your favorite React tool?</p>
+                  </label>
+                  <select id="fav-tool" required >
+                    <option disabled select value>Select an option</option>
+                    <option name="react-proto">React-proto</option>
+                    <option name="create-react-app">Rreate-react-app</option>
+                    <option name="react-testing-library">React-testing-library</option>
+                    <option name="React Developers Tools">React Developers Tools</option>
+                    <option name="React Sight">React Sight</option>
+                  </select>
+                </div>
+
+                <div class="form-sv">
+                  <label id="textarea-label">
+                    <p>How do people work with it?</p>
+                  </label>
+                  <textarea id="comments"></textarea>
+                </div>
+                <div class="form-sv">
+                  <label id="textarea-label">
+                    <p>What do you want to improve?</p>
+                  </label>
+                  <textarea id="comments"></textarea>
+                </div>
+                <div class="form-sv">
+                  <label id="textarea-label">
+                    <p>Do you have any questions for us?</p>
+                  </label>
+                  <textarea id="comments"></textarea>
+                </div>
+
+              </div>
+
+
+              <div class="action">
+                <button type="submit" id="submit"> <a href="./sv2.html">SUBMIT</a></button>
+               
+              </div>
+        </form>
+    </div>
+    
+</body>
